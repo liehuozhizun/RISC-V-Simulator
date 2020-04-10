@@ -1,0 +1,11 @@
+ <DESCRIPTION>
+	This program is trying to simulate the RISC-V in five 
+	stages of pipeline. The five stages will pass the data
+	by the specific stage registers. At the same time, this 
+	program will implement stalls and BTB in advanced.
+<NOTES>  
+	
+<TEST PLANS> 
+	The same as the PA1, we will do the testing for each stage.
+	And after finish coding the whole program, we will run a 
+	big test.

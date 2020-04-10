@@ -1,0 +1,26 @@
+<DESCRIPTION>
+	This program is trying to implement virtual memory. We tried
+	to implement the caches which would be indexed by a combination
+	of virtual and physical address. So, two TLBs are needed, one
+	is instruction TLB and one is data TLB.
+	Moreover than that, we also tried to fix bugs for PA3.
+
+<NOTES>  
+	The execute_one.c in the 'master' directory (NOT PA1, PA2 nor PA3)
+	is the file for this assignment, which is PA4.
+	
+<TEST PLANS> 
+	As we did before, we test every sub-funtion again in the execution
+	stage and try to make sure they can run correctly. To do this, we
+	used the website the prof. provided to generate an assembly binary
+	instruction code specificly for each funtion.
+	Except for some strange functions like auipc, we couldn't fix that
+	due to time lackness.
+	Next, we test stalls, forwarding, static branch prediction, I-cache
+	and D-cache with different circumastances for different functions.
+	Because of the complexity of our code, do this testing is hard and
+	we just combine them with the new test for PA4. If everything goes
+	beyound what we expect. We will stop and fix that.
+	As indicated above, we do the testing for the entire program after
+	finishing code.
+	No further details of testing---

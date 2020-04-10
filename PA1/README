@@ -1,0 +1,18 @@
+ <DESCRIPTION>
+	This program is trying to simulate the RISC-V for
+	a single instruction execution. The function 
+	“single_instrcution_execution()” will be called 
+	periodically by the given main function. With the 
+	given pc address, the program can read and execute 
+	the instruction, and finally return the expected 
+	value back to the memory or register. 
+<NOTES>  
+	Some of the sub-functions are still not tested.
+<TEST PLANS> 
+	Since the program is written in multiple sub-functions,
+	we will test the sub-functions by the programmer 
+	individually with the binary 32-bit instruction. 
+	The program should make sure that all the sub-functions 
+	should work perfectly with the whole program. Then merge 
+	them, and push it to the gitlab. After completing coding 
+	and testing the whole program, we will run a test file.

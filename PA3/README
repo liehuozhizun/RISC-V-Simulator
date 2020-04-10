@@ -1,0 +1,16 @@
+<DESCRIPTION>
+	This program is trying to implement two caches, I-cache
+	and D-cache.
+	Also, finish the implementation of BTB for PA2.
+
+<NOTES>  
+	The execute_one.c in the 'master' directory (NOT PA1 or PA2)
+	is the file for this assignment, which is PA3.
+	We didn't fix the bugs for I-cache that cannot get the next
+	four instructions from the memory for unseen reasons.
+
+<TEST PLANS> 
+	The same as the PA1 and PA2, we will do the testing for each
+	command in each stage. And after finish coding the whole 
+	program, we will run a big test.
+	Actually, we didn't finish the test.
